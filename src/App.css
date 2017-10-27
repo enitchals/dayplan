@@ -14,6 +14,42 @@
   color: white;
 }
 
+.App-body {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.App-body__column{
+    display: flex;
+    flex-direction: column;
+}
+
+.NarrowColumn {
+    flex-grow: 3;
+}
+
+.WideColumn {
+    flex-grow: 7;
+}
+
+.Box{
+    border: 5px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.ToDo-item {
+    color: red;
+    text-align: left;
+}
+
+.Note {
+    text-align: left;
+}
+
 .App-title {
   font-size: 1.5em;
 }
