@@ -7,14 +7,14 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h1>dayplanner</h1>
+          Day Planner
           <div className="Nav">
-            <b> <font color="red">Today</font></b> |
+            <b>Today</b> |
             This Week |
             This Month
           </div>
         </div>
-        <Today />
+          <Today />
       </div>
     );
   }

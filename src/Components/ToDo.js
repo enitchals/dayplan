@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ToDoList from './ToDoList.js';
+import './ToDo.css';
 
 class ToDo extends Component {
   constructor() {
@@ -36,8 +37,7 @@ class ToDo extends Component {
 
   render() {
     return (
-      <div className="ToDo">
-        <div className="Box">
+        <div className="ToDo">
           <h1> To Do List </h1>
           <ToDoList
             changeHandler={this.handleToDo}
@@ -47,7 +47,6 @@ class ToDo extends Component {
             toDoItems={this.state.toDoItems}
             />
         </div>
-      </div>
     );
   }
 }

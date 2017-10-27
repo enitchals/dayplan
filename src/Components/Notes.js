@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Notes.css';
 
 class Notes extends Component {
   constructor() {
@@ -25,7 +26,6 @@ class Notes extends Component {
   render() {
     return (
       <div className="Notes">
-        <div className="Box">
           <h1>Notes</h1>
           <ul>
             {this.state.notes.map((note, i) => {
@@ -34,10 +34,9 @@ class Notes extends Component {
                 )
             })}
           </ul>
-          <textarea width="90%" value={this.state.memo} onChange={this.handleMemo} />
+          <input type="text" width="300px" value={this.state.memo} onChange={this.handleMemo} />
           <button onClick={this.handleAddNote}> Add Note </button>
           <p></p>
-        </div>
       </div>
     );
   }

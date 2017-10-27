@@ -8,10 +8,15 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+    background-color: rgb(0,125,125);
+    padding: 35px;
+    color: white;
+    font-size: 50px;
+}
+
+.Nav {
+    color: white;
+    font-size: 30px;
 }
 
 .App-body {
@@ -35,21 +40,6 @@
     flex-basis: 50%;
 }
 
-.Box{
-    border: 5px solid;
-    padding: 10px;
-    margin: 10px;
-}
-
-.ToDo-item {
-    color: red;
-    text-align: left;
-}
-
-.Note {
-    text-align: left;
-}
-
 .App-title {
   font-size: 1.5em;
 }
@@ -58,7 +48,6 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+h1{
+    color: rgb(0,125,125);
 }

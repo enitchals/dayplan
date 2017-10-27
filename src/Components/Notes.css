@@ -1,0 +1,9 @@
+﻿.Notes {
+    border: 5px solid rgb(0,225,225);
+    padding: 10px;
+    margin: 10px;
+}
+
+.Note {
+    text-align: left;
+}

@@ -10,8 +10,9 @@ const ToDoList = props => {
         {props.toDoItems.map((todo, i) => {
           return (
             <div>
-              <p className="ToDo-item" key={i}>{todo}
-                <button onClick={() => { remove(todo) }}> Complete </button>
+              <p className="ToDo-item" key={i}>
+                <button onClick={() => { remove(todo) }}> X </button>
+                <span className="ToDo-item__text">{todo}</span>
                 </p>
               </div>
           );
