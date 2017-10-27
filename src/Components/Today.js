@@ -8,8 +8,10 @@ class Today extends Component {
     return (
       <div className="Today">
         <div className="App-body">
-          <div className="App-body__column WideColumn">
+          <div className="App-body__column NarrowColumn">
             <ToDo />
+          </div>
+          <div className="App-body__column WideColumn">
             <Notes />
           </div>
           <div className="App-body__column NarrowColumn">

@@ -28,11 +28,11 @@
 }
 
 .NarrowColumn {
-    flex-grow: 3;
+    flex-basis: 25%;
 }
 
 .WideColumn {
-    flex-grow: 7;
+    flex-basis: 50%;
 }
 
 .Box{
