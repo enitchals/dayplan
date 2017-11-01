@@ -6,7 +6,9 @@ class Notes extends Component {
     super();
     this.state = {
       memo: '',
-      notes: []
+      notes: [],
+      title: '',
+      notebook: []
     }
     this.handleMemo = this.handleMemo.bind(this);
     this.handleAddNote = this.handleAddNote.bind(this);
